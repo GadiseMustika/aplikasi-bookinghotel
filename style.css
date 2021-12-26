@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: poppins;
+}
+
+.container{
+   padding: 50px;
+   background-color: rgba(102, 99, 99, 0.6);
+}
+
+h3{
+    text-align: center;
+    color: #ffffff;
+
+}
+.form-group{
+    box-sizing: border-box;
+    width: 90%;
+    height: 200px;
+    margin-top: 20px;
+    border-top: 20px solid rgb(38, 38, 38);
+    border-bottom: 20px solid rgb(38, 38, 38);
+}
+
+input{
+    margin-top: 20px;
+    width: 35%;
+    border: none;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+select{
+    margin-top: 15px;
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    padding: 2px;
+}
+
+button{
+    margin-top: 20px;
+}
+
+label{
+    margin-right: 5px;
+    color: #fefefe;
+}

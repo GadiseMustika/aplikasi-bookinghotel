@@ -45,9 +45,10 @@
                 </div>
             </form>
         </div>
-        <button type="submit">Cetak</button>
 
-        <button type="reset">Batal</button>
+        <button type="submit" class="cetak">Cetak</button>
+
+        <button type="reset" class="batal">Batal</button>
 
     </div>
 </body>
