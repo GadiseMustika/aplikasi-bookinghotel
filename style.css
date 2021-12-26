@@ -40,9 +40,21 @@ select{
 }
 
 button{
+    padding: 10px;
     margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    color: #fefefe;
 }
 
+.batal{
+    background-color: red;
+    margin-left: 5px;
+}
+
+.cetak{
+    background-color: rgb(5, 150, 5);
+}
 label{
     margin-right: 5px;
     color: #fefefe;
