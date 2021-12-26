@@ -11,37 +11,45 @@
 
 <body>
 
-    <h4>Penginapan Nyenyak</h4>
 
     <div class="container">
-        <form action="output.php" method="post">
+        <h3>PENGINAPAN "NYENYAK"</h3>
 
-            <div class="nama-pelanggan">
-                <label for="nama">
-                    <span>Nama</span>
-                </label>
-                <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda..">
-            </div>
+        <div class="form-group">
+            <form action="output.php" method="post">
 
-            <div class="tipe-kamar">
-                <label for="tipe">
-                    <span>Tipe Kamar</span>
-                </label>
+                <div class="nama-pelanggan">
+                    <label for="nama">
+                        <span>Nama Tamu</span>
+                    </label>
+                    <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda..">
+                </div>
 
-                <select name="tipe" id="tipe">
-                    <option value="vip">VIP</option>
-                    <option value="executive">Executive</option>
-                    <option value="bisnis">Bisnis</option>
-                </select>
-            </div>
+                <div class="tipe-kamar">
+                    <label for="tipe">
+                        <span>Tipe Kamar</span>
+                    </label>
 
-            <div class="waktu-inap">
-                <label for="waktu">
-                    <span>Lama Inap</span>
-                </label>
-                <input type="text" name="waktu" id="waktu" placeholder="Mau Nginap Berapa Lama..">
-            </div>
-        </form>
+                    <select name="tipe" id="tipe">
+                        <option value="vip">VIP</option>
+                        <option value="executive">Executive</option>
+                        <option value="bisnis">Bisnis</option>
+                    </select>
+                </div>
+
+                <div class="waktu-inap">
+                    <label for="waktu">
+                        <span>Lama Inap</span>
+                    </label>
+                    <input type="text" name="waktu" id="waktu" placeholder="Mau Nginap Berapa Lama..">
+                </div>
+            </form>
+        </div>
+        <button type="submit">Cetak</button>
+
+        <button type="reset">Batal</button>
+
     </div>
 </body>
+
 </html>
