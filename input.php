@@ -1,12 +1,3 @@
-<?php
-// membuat variabel untuk mengirimkan data
-$nama = $_POST["nama"];
-$tipe = $_POST["tipe"];
-$waktu = $_POST["waktu"];
-?>
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,11 +18,10 @@ $waktu = $_POST["waktu"];
 
     <div class="container-input">
         <h3>PENGINAPAN "NYENYAK"</h3>
-
         <div class="form-group">
             <form action="output.php" method="post">
 
-                <div class="nama-pelanggan">
+                <div class="nama-tamu">
                     <label for="nama">
                         <span>Nama Tamu</span>
                     </label>
@@ -62,7 +52,6 @@ $waktu = $_POST["waktu"];
         <button type="submit" class="cetak" name="cetak">Cetak</button>
 
         <button type="reset" class="batal" name="batal">Batal</button>
-
     </div>
 </body>
 
