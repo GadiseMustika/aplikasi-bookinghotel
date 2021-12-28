@@ -16,7 +16,7 @@
 <body>
 
 
-    <div class="container">
+    <div class="container-input">
         <h3>PENGINAPAN "NYENYAK"</h3>
 
         <div class="form-group">

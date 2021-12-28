@@ -1,12 +1,11 @@
 *{
     padding: 0;
-    margin: 0;
-    font-family: poppins;
+    margin: 0; 
 }
-
-.container{
+.container-input{
    padding: 50px;
    background-color: rgba(102, 99, 99, 0.6);
+     font-family: 'Roboto',sans-serif;
 }
 
 /* styling input.php */
