@@ -25,7 +25,7 @@
                     <label for="nama">
                         <span>Nama Tamu</span>
                     </label>
-                    <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda.." required >
+                    <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda.." required autocomplete="off">
                 </div>
 
                 <div class="tipe-kamar">
@@ -44,11 +44,11 @@
                     <label for="waktu">
                         <span>Lama Inap</span>
                     </label>
-                    <input type="text" name="waktu" id="waktu" placeholder="Mau Nginap Berapa Lama.." required>
+                    <input type="text" name="waktu" id="waktu" placeholder="Mau Nginap Berapa Lama.." required autocomplete="off">
                 </div>
 
                 <div class="button">
-                    <button type="submit" class="cetak" name="cetak">Cetak</button>
+                    <button type="submit" class="cetak" name="cetak" >Cetak</button>
 
                     <button type="reset" class="batal" name="batal">Batal</button>
                 </div>
