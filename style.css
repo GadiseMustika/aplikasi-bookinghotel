@@ -4,6 +4,8 @@
 }
 .container-input{
    padding: 50px;
+   width: 50%;
+   margin: 50px auto;
    height: 280px;
    background-color: rgba(102, 99, 99, 0.6);
    font-family: 'Roboto',sans-serif;
@@ -67,5 +69,21 @@ label{
 
 /* styling output.php */
 .container-output{
-    border: 2px solid #0000;
+    box-sizing: border-box;
+    margin: 50px auto;
+    width: 50%;
+    border: 2px solid rgb(79, 79, 79);
+    padding: 50px;
+    height: 280px;
+    font-family: 'Inconsolata',
+    monospace;
+}
+
+.invoice{
+    margin-top: 10px;
+    border-top: 2px dashed black;
+}
+
+p{
+    margin-top: 10px;
 }
