@@ -53,7 +53,7 @@
 
         <!-- mencetak harga sewa dan tipe -->
         <p>Tipe Kamar Yang Dipesan : <?= $jenis; ?></p>
-        <p>Biaya Sewa: <?= $harga; ?></p>
+        <p>Harga Sewa: <?= $harga; ?></p>
 
         <?php
         // menghitung Biaya Sewa didapat lama inap x harga sewa
@@ -62,7 +62,7 @@
 
         <!-- mencetak lama inap dan biaya sewa -->
         <p>Lama Inap : <?= $waktu; ?></p>
-        <p>Harga Sewa : <?= $biaya; ?></p>
+        <p>Biaya Sewa : <?= $biaya; ?></p>
       </div>
     </div>
   <?php endif; ?>
