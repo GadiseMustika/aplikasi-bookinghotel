@@ -25,7 +25,7 @@
                     <label for="nama">
                         <span>Nama Tamu</span>
                     </label>
-                    <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda.." required>
+                    <input type="text" name="nama" id="nama" placeholder="Tuliskan Nama Anda.." required >
                 </div>
 
                 <div class="tipe-kamar">
@@ -55,12 +55,7 @@
 
             </form>
         </div>
-
-        <form action="output.php" method="post">
-
-        </form>
-
-    </div>
+</div>
 </body>
 
 </html>
