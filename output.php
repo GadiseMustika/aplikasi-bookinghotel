@@ -62,7 +62,7 @@
 
         <!-- mencetak lama inap dan biaya sewa -->
         <p>Lama Inap : <?= $waktu; ?></p>
-        <p>Biaya Sewa : <?= $biaya; ?></p>
+        <p>Harga Sewa : <?= $biaya; ?></p>
       </div>
     </div>
   <?php endif; ?>
