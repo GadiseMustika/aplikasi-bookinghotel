@@ -46,12 +46,20 @@
                     </label>
                     <input type="text" name="waktu" id="waktu" placeholder="Mau Nginap Berapa Lama..">
                 </div>
+
+                <div class="button">
+                    <button type="submit" class="cetak" name="cetak">Cetak</button>
+
+                    <button type="reset" class="batal" name="batal">Batal</button>
+                </div>
+
             </form>
         </div>
 
-        <button type="submit" class="cetak" name="cetak">Cetak</button>
+        <form action="output.php" method="post">
 
-        <button type="reset" class="batal" name="batal">Batal</button>
+        </form>
+
     </div>
 </body>
 

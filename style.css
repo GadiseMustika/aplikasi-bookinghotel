@@ -4,8 +4,9 @@
 }
 .container-input{
    padding: 50px;
+   height: 280px;
    background-color: rgba(102, 99, 99, 0.6);
-     font-family: 'Roboto',sans-serif;
+   font-family: 'Roboto',sans-serif;
 }
 
 /* styling input.php */
@@ -58,4 +59,13 @@ button{
 label{
     margin-right: 5px;
     color: #fefefe;
+}
+
+.button{
+    margin-top: 40px;
+}
+
+/* styling output.php */
+.container-output{
+    border: 2px solid #0000;
 }
